@@ -9,6 +9,7 @@ import {
 import Home from './components/Home/Home.js';
 import Register from './components/Register/Register.js';
 import Login from './components/Login/Login.js';
+import Logout from './components/Logout/Logout.js';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route path='/register' component={Register} />
         <Route path='/login' component={Login} />
+        <Route path='/logout' component={Logout} />
     </HashRouter>
   );
 }

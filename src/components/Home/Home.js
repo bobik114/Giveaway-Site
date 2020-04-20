@@ -11,6 +11,7 @@ import ThreeColumns from './ThreeColumns/ThreeColumns';
 import SimpleSteps from './SimpleSteps/SimpleSteps';
 import AboutUs from './AboutUs/AboutUs'
 import WhoWeHelp from './WhoWeHelp/WhoWeHelp';
+import Contact from './Contact/Contact';
 
 const Home = () => {
     return <>
@@ -19,6 +20,7 @@ const Home = () => {
         <SimpleSteps />
         <AboutUs />
         <WhoWeHelp />
+        <Contact />
     </>   
 };
 

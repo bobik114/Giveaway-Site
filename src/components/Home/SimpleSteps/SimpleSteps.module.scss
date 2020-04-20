@@ -3,6 +3,8 @@
     width: 253px;
     height: 33px;
     background: url('../../../assets/Decoration.svg');
+    background-size: inherit;
+    background-repeat: no-repeat;
 }
 
 .simpleStepsContainer {
@@ -18,14 +20,14 @@
 .simpleStepsMain {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     background: #F0F1F1 0% 0% no-repeat padding-box;
-    padding: 75px;
+    padding: 75px 0;
     text-align: center;
     .simpleStepsBoxContainer {
         display: flex;
         justify-content: space-between;
-        width: 1050px;
+        width: 1000px;
         h3 {
             font-size: 18px;
             margin: 10px;
